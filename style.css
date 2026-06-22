@@ -88,3 +88,17 @@ text-align: center;
 padding: 20px;
 background: #161b22;
 }
+
+/* TYPING EFFECT */
+
+.typing {
+
+  border-right: 2px solid #58a6ff;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  display: inline-block;
+
+}
