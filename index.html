@@ -182,5 +182,28 @@
     <p>© 2026 Desmond Azumah</p>
 
   </footer>
+  <script>
+
+const text = "Desmond Azumah";
+
+let i = 0;
+
+function type() {
+
+    if (i < text.length) {
+
+        document.querySelector(".typing").innerHTML += text.charAt(i);
+
+        i++;
+
+        setTimeout(type, 120);
+
+    }
+
+}
+
+type();
+
+</script>
 </body>
 </html>
