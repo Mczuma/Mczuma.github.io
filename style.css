@@ -1,1 +1,90 @@
+body {
+margin: 0;
+font-family: “Arial”, sans-serif;
+background: #0a0f1a;
+color: #e6edf3;
+}
 
+/* HERO */
+.hero {
+text-align: center;
+padding: 80px 20px;
+background: linear-gradient(135deg, #0d1117, #161b22);
+}
+
+.hero h1 {
+font-size: 3rem;
+}
+
+.hero p {
+color: #58a6ff;
+}
+
+/* BUTTON */
+.btn {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background: #58a6ff;
+color: #000;
+text-decoration: none;
+border-radius: 6px;
+}
+
+/* NAV */
+nav {
+display: flex;
+justify-content: center;
+gap: 20px;
+background: #161b22;
+padding: 15px;
+position: sticky;
+top: 0;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #58a6ff;
+}
+
+/* SECTIONS */
+section {
+max-width: 1000px;
+margin: auto;
+padding: 50px 20px;
+}
+
+h2 {
+color: #58a6ff;
+}
+
+/* GRID */
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+}
+
+/* CARDS */
+.card {
+background: #161b22;
+padding: 20px;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 20px;
+background: #161b22;
+}
